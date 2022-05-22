@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+.wrapper{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    margin-top: 7%;
+}
+.wrapper-sub{
+    margin-left: 52px;
+    margin-top: 66px;
+}
+.title-ps{
+    margin-bottom: 35px;
+    border-bottom: 1px solid #2F3E53;
+    width: 89%;
+}
+.header-title-green{
+    color: #4ADF86;
+}
+.header-subtitle{
+    margin-top: 10px;
+    margin-bottom: 52px;
+    color: #D5D4D8;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.generate-pass-btn-wrapper{
+    margin-top: 5px;
+    margin-bottom: 31px;
+}
+.generate-pass-btn{
+    background-color: #4ADF86;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 223px;
+    height: 42px;
+    padding: 0%;
+}
+.fa-bolt{
+    margin-left: 0;
+    margin-right: 12px;
+}
+.btn-ps{
+    Font-style: ExtraBold;
+    Font-size: 40px;
+    Line-height: 40px;
+    Line-height: 86%;
+    Letter-spacing: -2.5%;
+}
+.password{
+    width: 211px;
+    height: 39px;
+    margin-bottom: 35px;
+    margin-right: 24px;
+    border-radius: 6px;
+    background-color: #273549;
+    border: none;
+    color: #55F991;
+    font-size: 16px;
+}
+.password:active, .password:hover{
+    background-color: #4ADF86;
+    color: #273549;
+}
+.password:visited{
+    color: blue;
+}
+.fa-ellipsis{
+    font-size: 1.5rem;
+    color: #202B3C;
+}
